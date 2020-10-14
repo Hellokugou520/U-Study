@@ -1,0 +1,99 @@
+/* 
+用户注册页样式
+*/
+
+.regist{
+    width: 1150px;
+    margin: 0px auto;
+    padding-top: 65px;
+    padding-bottom: 57px;
+}
+.regist form{
+    width: 556px;
+    border-right: 1px solid #E7E7E7;
+    padding-right: 25px;
+}
+.regist form p{
+    margin-bottom: 18px;
+}
+.regist form p:nth-of-type(4){
+    position: relative;
+}
+.regist form p:nth-of-type(5){
+    position: relative;
+}
+.regist form label{
+    display: inline-block;
+    font-size: 14px;
+    width: 70px;
+    text-align: right;
+}
+.regist form input{
+    width: 254px;
+    height: 36px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+}
+.regist form em{
+    display: none;
+    font-size: 12px;
+    font-family: '宋体';
+    color: #999;
+    margin-left: 10px;
+}
+.regist form em.ok{
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    background: url(../image/OK.jpg) no-repeat;
+}
+.regist form #yzm{
+    position: absolute;
+    top: 9px;
+    left: 282px;
+    font-size: 14px;
+    color: #999;
+    background-color: #bfc;
+    padding: 0px 3px;
+    cursor: pointer;
+    /* 文字禁选 */
+    -webkit-user-select: none;
+}
+.regist form #testNode{
+    position: absolute;
+    top: 9px;
+    left: 260px;
+    font-size: 12px;
+    color: #999;
+    cursor: pointer;
+    /* 文字禁选 */
+    -webkit-user-select: none;
+}
+.regist form #testNode:hover{
+    color: #FF4A00;
+}
+.regist form button{
+    width: 266px;
+    height: 42px;
+    background-color: #FF4A00;
+    color: #fff;
+    font-weight: 800;
+    margin-left: 74px;
+}
+.regist form .tip{
+    font-size: 12px;
+    color: #666;
+    margin-left: 242px;
+}
+.regist form .tip a{
+    color: #FF4A00;
+    text-decoration: underline;
+}
+.regist .r_right{
+    padding-right: 70px;
+}
+.regist .r_right p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: '宋体';
+}
